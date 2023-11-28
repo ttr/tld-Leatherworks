@@ -1,0 +1,170 @@
+{
+	"GAMEPLAY_MetalBoxTanning": {
+		"English": "Metal Box with Leather Preparing"
+	},
+	"GAMEPLAY_MetalBoxTanningDescription": {
+		"English": "A box containing tanning and scraped leather to make leather."
+	},
+	"GAMEPLAY_MetalBoxTanFilled": {
+		"English": "Metal Box with Tanning"
+	},
+	"GAMEPLAY_MetalBoxTanFilledDescription": {
+		"English": "A metal box filled with tanning to prepare leather."
+	},
+	"GAMEPLAY_MetalBoxTanned": {
+		"English": "Metal Box with Prepared Leather"
+	},
+	"GAMEPLAY_MetalBoxTannedDescription": {
+		"English": "A metal box containing prepared leather."
+	},
+	"GAMEPLAY_LeatherScraped": {
+		"English": "Scraped Leather"
+	},
+	"GAMEPLAY_LeatherScrapedDescription": {
+		"English": "A piece of raw leather, that has been cleaned and cut from animal hide."
+	},
+	"GAMEPLAY_TreeBark": {
+		"English": "Tree Bark"
+	},
+	"GAMEPLAY_TreeBarkDescription": {
+		"English": "The bark from a tree. Might be handy for tanning."
+	},
+	"GAMEPLAY_CookedTanning": {
+		"English": "Tanning"
+	},
+	"GAMEPLAY_CookedTanningDescription": {
+		"English": "A dark thick liquid, that is used in preparing leather."
+	},
+	"GAMEPLAY_UncookedTanning": {
+		"English": "Wet Treebark"
+	},
+	"GAMEPLAY_UncookedTanningDescription": {
+		"English": "Something between bark and tanning. Useless in its current form."
+	},
+	"GAMEPLAY_BarkPrepared": {
+		"English": "Prepared Bark"
+	},
+	"GAMEPLAY_BarkPreparedDescription": {
+		"English": "A chunk of prepared bark. Could be cooked into food or fried and crushed to get some flour."
+	},
+	"GAMEPLAY_BarkPreparedFried": {
+		"English": "Fried Prepared Bark"
+	},
+	"GAMEPLAY_BarkPreparedFriedDescription": {
+		"English": "A bit dry and tough. Tastes like potato chips. Could be crushed into flour."
+	},
+	"GAMEPLAY_BarkPreparedPile": {
+		"English": "Pile of Prepared Bark"
+	},
+	"GAMEPLAY_BarkPreparedPileDescription": {
+		"English": "A pile of prepared bark, perfect amount to fry in a batch."
+	},
+	"GAMEPLAY_BarkPreparedFriedPile": {
+		"English": "Pile of Fried Prepared Bark"
+	},
+	"GAMEPLAY_BarkPreparedFriedPileDescription": {
+		"English": "A bit dry and tough. Tastes like potato chips. Could be crushed into flour."
+	},
+	"GAMEPLAY_UnCookedBarkNoodles": {
+		"English": "Uncooked Bark Noodles"
+	},
+	"GAMEPLAY_UnCookedBarkNoodlesDescription": {
+		"English": "Prepared bark and water. Doesn't look that enticing."
+	},
+	"GAMEPLAY_CookedBarkNoodles": {
+		"English": "Bark Noodles"
+	},
+	"GAMEPLAY_CookedBarkNoodlesDescription": {
+		"English": "A can of cooked prepared bark, some would even call them noodles. Don't ask where the can came from, just enjoy your meal."
+	},
+	"GAMEPLAY_UnCookedBarkBannock": {
+		"English": "Uncooked Bark Bannock"
+	},
+	"GAMEPLAY_UnCookedBarkBannockDescription": {
+		"English": "A bannock of all time, in the making. With extra bark."
+	},
+	"GAMEPLAY_CookedBarkBannock": {
+		"English": "Bark Bannock"
+	},
+	"GAMEPLAY_CookedBarkBannockDescription": {
+		"English": "Flat bark bread. I heard this stuff is popular in Finland, maybe they get their happiness from it."
+	},
+	"GAMEPLAY_UnCookedBirchBarkNoodles": {
+		"English": "Uncooked Birch Bark Noodles"
+	},
+	"GAMEPLAY_UnCookedBirchBarkNoodlesDescription": {
+		"English": "Prepared bark and water. Doesn't look that enticing."
+	},
+	"GAMEPLAY_CookedBirchBarkNoodles": {
+		"English": "Birch Bark Noodles"
+	},
+	"GAMEPLAY_CookedBirchBarkNoodlesDescription": {
+		"English": "A can of cooked prepared bark, some would even call them noodles. Don't ask where the can came from, just enjoy your meal."
+	},
+	"GAMEPLAY_UnCookedBirchBarkBannock": {
+		"English": "Uncooked Birch Bark Bannock"
+	},
+	"GAMEPLAY_UnCookedBirchBarkBannockDescription": {
+		"English": "A bannock of all time, in the making. With extra bark."
+	},
+	"GAMEPLAY_CookedBirchBarkBannock": {
+		"English": "Birch Bark Bannock"
+	},
+	"GAMEPLAY_CookedBirchBarkBannockDescription": {
+		"English": "Flat bark bread. I heard this stuff is popular in Finland, maybe they get their happiness from it."
+	},
+	"GAMEPLAY_LW_NoScrape": {
+		"English": "You require a knife for this action"
+	},
+	"GAMEPLAY_LW_ScrapeProgressBar": {
+		"English": "Scraping..."
+	},
+	"GAMEPLAY_LW_ScrapeLabel": {
+		"English": "Scrape"
+	},
+	"GAMEPLAY_LW_NoLeatherScraped": {
+		"English": "You require 5 scraped leather for this action"
+	},
+	"GAMEPLAY_LW_TanLeatherProgressBar": {
+		"English": "Soaking..."
+	},
+	"GAMEPLAY_LW_AddLeatherLabel": {
+		"English": "Soak"
+	},
+	"GAMEPLAY_LW_NoTanning": {
+		"English": "You require tanning for this action"
+	},
+	"GAMEPLAY_LW_AddTanningProgressBar": {
+		"English": "Filling..."
+	},
+	"GAMEPLAY_LW_AddTanningLabel": {
+		"English": "Add Tan"
+	},
+	"GAMEPLAY_LW_NoBarkSmall": {
+		"English": "You require 35 pieces for this action"
+	},
+	"GAMEPLAY_LW_NoBarkSmallPile": {
+		"English": "You require 5 pieces for this action"
+	},
+	"GAMEPLAY_LW_CrushProgressBar": {
+		"English": "Crushing..."
+	},
+	"GAMEPLAY_LW_NoBarkLarge": {
+		"English": "You require 7 pieces for this action"
+	},
+	"GAMEPLAY_LW_CrushBarkLabel": {
+		"English": "Crush"
+	},
+	"GAMEPLAY_LW_PileBarkLabel": {
+		"English": "Pile"
+	},
+	"GAMEPLAY_LW_PileProgressBar": {
+		"English": "Piling..."
+	},
+	"GAMEPLAY_LW_NoBark": {
+		"English": "You require a hammer/stone"
+	},
+	"GAMEPLAY_LW_PlaceBoxLabel": {
+		"English": "Place"
+	}
+}
