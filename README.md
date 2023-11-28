@@ -22,11 +22,11 @@ https://github.com/TonisGaming/Leatherworks/assets/18740935/66da02ba-7129-4f36-a
 
 **V1.0:**
 
-*Added treebark. Spawn chance can be tweaked in settings
-*Added recipes for tanning, bark noodles and bark bannock, both in normal bark and birch bark variants (Birch bark variant is currently missing its restore condition buff)
-*Fry prepared treebark, which can be done both singularly or in a pile, into a snack or to grind it down into flour. 
-*Added the option to scrape animal hides. Can be tweaked in settings, if this would apply for only cured or cured and fresh hides
-*Added scraped leather, which can be acquired from scraping hide
-*Added 3 different variations of the metal box. Filled with tanning, leather soaking in tanning (This can cure both indoors and outdoors) and leather finished soaking (harvest to get your raw leather, which then has to air dry)
+* Added treebark. Spawn chance can be tweaked in settings
+* Added recipes for tanning, bark noodles and bark bannock, both in normal bark and birch bark variants (Birch bark variant is currently missing its restore condition buff)
+* Fry prepared treebark, which can be done both singularly or in a pile, into a snack or to grind it down into flour. 
+* Added the option to scrape animal hides. Can be tweaked in settings, if this would apply for only cured or cured and fresh hides
+* Added scraped leather, which can be acquired from scraping hide
+* Added 3 different variations of the metal box. Filled with tanning, leather soaking in tanning (This can cure both indoors and outdoors) and leather finished soaking (harvest to get your raw leather, which then has to air dry)
 
 If you run into issues, do let me know, thanks
