@@ -29,6 +29,17 @@ https://github.com/TonisGaming/Leatherworks/assets/18740935/66da02ba-7129-4f36-a
 * Added the option to scrape animal hides. Can be tweaked in settings, if this would apply for only cured or cured and fresh hides
 * Added scraped leather, which can be acquired from scraping hide
 * Added 3 different variations of the metal box. Filled with tanning, leather soaking in tanning (This can cure both indoors and outdoors) and leather finished soaking (harvest to get your raw leather, which then has to air dry)
+  
+**V1.1:**
+
+* Added the ability to fry Prepared Birch (it's a hacky way, but it works, cause that's modding right?)
+* Added buffs to Birch (Restore condition) and Bark (Increased carry weight) foods, including fried versions
+* Added Bark Bope (3 prepared bark), which in turn can be turned into a String Bundle (also 3 bark rope)
+* Fixed so scraping hides, and now also making bark rope, reduces the durability on your knife
+* Added a crafting recipe for the Leather Flight Jacket
+* Added Improved Down Insulation, Improved Thermal Underwear and Improved Leather Jacket (My artistic skills aren't great, but that was evident already I think)
+* Added crafting recipes for the Leather Flight Jacket, Improved Down Insulation, Improved Underwear and Improved Flight Jacket
+* Added settings to customize item amounts needed for making flour and filling a metal box with tanning
 
 ## Credits
 
