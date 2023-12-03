@@ -1,5 +1,5 @@
 {
-  "ModFoodComponent": {
+  "ModCookableComponent": {
     "DisplayNameLocalizationId": "GAMEPLAY_UnCookedBirchBarkBannock",
     "DescriptionLocalizatonId": "GAMEPLAY_UnCookedBirchBarkBannockDescription",
     "InventoryActionLocalizationId": "",

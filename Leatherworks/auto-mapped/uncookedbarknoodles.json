@@ -1,5 +1,5 @@
 {
-  "ModFoodComponent": {
+  "ModCookableComponent": {
     "DisplayNameLocalizationId": "GAMEPLAY_UnCookedBarkNoodles",
     "DescriptionLocalizatonId": "GAMEPLAY_UnCookedBarkNoodlesDescription",
     "InventoryActionLocalizationId": "",

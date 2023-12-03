@@ -29,6 +29,12 @@
 	"GAMEPLAY_TreeBarkDescription": {
 		"English": "The bark from a tree. Might be handy for tanning."
 	},
+	"GAMEPLAY_BarkRope": {
+		"English": "Bark Cordage"
+	},
+	"GAMEPLAY_BarkRopeDescription": {
+		"English": "A simple rope made out of bark fibers. Surprisingly strong."
+	},
 	"GAMEPLAY_CookedTanning": {
 		"English": "Tanning"
 	},
@@ -64,6 +70,30 @@
 	},
 	"GAMEPLAY_BarkPreparedFriedPileDescription": {
 		"English": "A bit dry and tough. Tastes like potato chips. Could be crushed into flour."
+	},
+	"GAMEPLAY_BirchBarkPreparedFryable": {
+		"English": "Prepared Birch Bark (Fryable)"
+	},
+	"GAMEPLAY_BirchBarkPreparedFryableDescription": {
+		"English": "A chunk of prepared birch bark. Could be cooked into food or fried."
+	},
+	"GAMEPLAY_BirchBarkPreparedFried": {
+		"English": "Fried Prepared Birch Bark"
+	},
+	"GAMEPLAY_BirchBarkPreparedFriedDescription": {
+		"English": "A bit dry and tough. Tastes like potato chips."
+	},
+	"GAMEPLAY_BirchBarkPreparedPile": {
+		"English": "Pile of Prepared Birch Bark"
+	},
+	"GAMEPLAY_BirchBarkPreparedPileDescription": {
+		"English": "A pile of prepared birch bark, perfect amount to fry in a batch."
+	},
+	"GAMEPLAY_BirchBarkPreparedFriedPile": {
+		"English": "Pile of Fried Prepared Birch Bark"
+	},
+	"GAMEPLAY_BirchBarkPreparedFriedPileDescription": {
+		"English": "A bit dry and tough. Tastes like potato chips."
 	},
 	"GAMEPLAY_UnCookedBarkNoodles": {
 		"English": "Uncooked Bark Noodles"
@@ -113,6 +143,24 @@
 	"GAMEPLAY_CookedBirchBarkBannockDescription": {
 		"English": "Flat bark bread. I heard this stuff is popular in Finland, maybe they get their happiness from it."
 	},
+	"GAMEPLAY_ImprovedJacketLeather": {
+		"English": "Improved Flight Jacket"
+	},
+	"GAMEPLAY_ImprovedJacketLeatherDescription": {
+		"English": "An already thick leather jacket modified with extra patches of leather. Should give you an extra second or two to escape a struggle."
+	},
+	"GAMEPLAY_ImprovedDownInsulation": {
+		"English": "Improved Down Insulation"
+	},
+	"GAMEPLAY_ImprovedDownInsulationDescription": {
+		"English": "A base layer improved with patches of leather. Warms the core to the point of sweating."
+	},
+	"GAMEPLAY_ImprovedLongJohns": {
+		"English": "Improved Underwear"
+	},
+	"GAMEPLAY_ImprovedLongJohnsDescription": {
+		"English": "Thermal underwear with loads of leather patches. Might get a bit sweaty."
+	},
 	"GAMEPLAY_LW_NoScrape": {
 		"English": "You require a knife for this action"
 	},
@@ -161,10 +209,40 @@
 	"GAMEPLAY_LW_PileProgressBar": {
 		"English": "Piling..."
 	},
+	"GAMEPLAY_LW_UnPileProgressBar": {
+		"English": "Unpiling..."
+	},
 	"GAMEPLAY_LW_NoBark": {
 		"English": "You require a hammer/stone"
 	},
 	"GAMEPLAY_LW_PlaceBoxLabel": {
 		"English": "Place"
+	},
+	"GAMEPLAY_LW_FryBirchLabel": {
+		"English": "To Cook"
+	},
+	"GAMEPLAY_LW_ReturnBirchLabel": {
+		"English": "To Craft"
+	},
+	"GAMEPLAY_LW_UnPileBarkLabel": {
+		"English": "Unpile"
+	},
+	"GAMEPLAY_LW_NoRope": {
+		"English": "You require 3 pieces for this action"
+	},
+	"GAMEPLAY_LW_MakeRopeLabel": {
+		"English": "Make Rope"
+	},
+	"GAMEPLAY_LW_MakeRopeProgressBar": {
+		"English": "Stripping..."
+	},
+	"GAMEPLAY_LW_NoString": {
+		"English": "You require 3 pieces for this action"
+	},
+	"GAMEPLAY_LW_MakeStringLabel": {
+		"English": "Make String"
+	},
+	"GAMEPLAY_LW_MakeStringProgressBar": {
+		"English": "Bundling..."
 	}
 }

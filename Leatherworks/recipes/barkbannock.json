@@ -18,7 +18,7 @@
     ],
     "RequiredPowder": [
       {
-        "Powder": "POWDER_Flour",
+        "Powder": "POWDER_GunPowder",
         "QuantityInKilograms": 0.2
       }
     ],

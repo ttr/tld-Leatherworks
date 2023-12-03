@@ -13,7 +13,10 @@
       }
     ],
     "RequiredPowder": [
-      
+      {
+        "Powder": "POWDER_Flour",
+        "QuantityInKilograms": 1.5
+      }
     ],
     "RequiredLiquid": [
       {

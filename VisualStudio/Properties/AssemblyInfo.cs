@@ -8,7 +8,7 @@ using System.Reflection;
 
 [assembly: AssemblyVersion(BuildInfo.ModVersion)]
 [assembly: AssemblyFileVersion(BuildInfo.ModVersion)]
-[assembly: MelonInfo(typeof(ModNamespace.Implementations), BuildInfo.ModName, BuildInfo.ModVersion, BuildInfo.ModAuthor)]
+[assembly: MelonInfo(typeof(ModNamespace.LWMain), BuildInfo.ModName, BuildInfo.ModVersion, BuildInfo.ModAuthor)]
 
 //This tells MelonLoader that the mod is only for The Long Dark.
 [assembly: MelonGame("Hinterland", "TheLongDark")]
@@ -18,5 +18,5 @@ internal static class BuildInfo
 	internal const string ModName = "Leatherworks";
 	internal const string ModAuthor = "TonisGaming";
 
-	internal const string ModVersion = "1.0.0";
+	internal const string ModVersion = "1.1.0";
 }

@@ -17,12 +17,21 @@ namespace Leatherworks
             }
         }
         [HarmonyPatch(typeof(ItemDescriptionPage), nameof(ItemDescriptionPage.UpdateGearItemDescription))]
-        internal class UpdateScrapeFurButton
+        internal class UpdateInventoryButton
         {
             private static void Postfix(ItemDescriptionPage __instance, GearItem gi)
             {
                 if (__instance != InterfaceManager.GetPanel<Panel_Inventory>()?.m_ItemDescriptionPage) return;
                 LWFunctionalities.furItem = gi?.GetComponent<GearItem>();
+                LWFunctionalities.recipientBoxItem = gi?.GetComponent<GearItem>();
+                LWFunctionalities.tanningItem = gi?.GetComponent<GearItem>();
+                LWFunctionalities.barkItem = gi?.GetComponent<GearItem>();
+                LWFunctionalities.pileItem = gi?.GetComponent<GearItem>();
+                LWFunctionalities.unPileItem = gi?.GetComponent<GearItem>();
+                LWFunctionalities.fryBirchItem = gi?.GetComponent<GearItem>();
+                LWFunctionalities.placeBoxItem = gi?.GetComponent<GearItem>();
+                LWFunctionalities.ropeItem = gi?.GetComponent<GearItem>();
+                LWFunctionalities.stringItem = gi?.GetComponent<GearItem>();
                 if (gi != null && LeatherworksUtils.IsFur(gi.name) == true)
                 {
                     LWFunctionalities.SetScrapeFurActive(true);
@@ -31,16 +40,9 @@ namespace Leatherworks
                 {
                     LWFunctionalities.SetScrapeFurActive(false);
                 }
-            }
-        }
 
-        [HarmonyPatch(typeof(ItemDescriptionPage), nameof(ItemDescriptionPage.UpdateGearItemDescription))]
-        internal class UpdateLeatherAddButton
-        {
-            private static void Postfix(ItemDescriptionPage __instance, GearItem gi)
-            {
-                if (__instance != InterfaceManager.GetPanel<Panel_Inventory>()?.m_ItemDescriptionPage) return;
-                LWFunctionalities.recipientBoxItem = gi?.GetComponent<GearItem>();
+                
+               
                 if (gi != null && LeatherworksUtils.IsTanFilled(gi.name) == true)
                 {
                     LWFunctionalities.SetLeatherAddActive(true);
@@ -49,16 +51,9 @@ namespace Leatherworks
                 {
                     LWFunctionalities.SetLeatherAddActive(false);
                 }
-            }
-        }
 
-        [HarmonyPatch(typeof(ItemDescriptionPage), nameof(ItemDescriptionPage.UpdateGearItemDescription))]
-        internal class UpdateTanningAddButton
-        {
-            private static void Postfix(ItemDescriptionPage __instance, GearItem gi)
-            {
-                if (__instance != InterfaceManager.GetPanel<Panel_Inventory>()?.m_ItemDescriptionPage) return;
-                LWFunctionalities.tanningItem = gi?.GetComponent<GearItem>();
+                
+                
                 if (gi != null && LeatherworksUtils.IsTanEmpty(gi.name) == true)
                 {
                     LWFunctionalities.SetTanningAddActive(true);
@@ -67,16 +62,9 @@ namespace Leatherworks
                 {
                     LWFunctionalities.SetTanningAddActive(false);
                 }
-            }
-        }
 
-        [HarmonyPatch(typeof(ItemDescriptionPage), nameof(ItemDescriptionPage.UpdateGearItemDescription))]
-        internal class UpdateCrushBarkButton
-        {
-            private static void Postfix(ItemDescriptionPage __instance, GearItem gi)
-            {
-                if (__instance != InterfaceManager.GetPanel<Panel_Inventory>()?.m_ItemDescriptionPage) return;
-                LWFunctionalities.barkItem = gi?.GetComponent<GearItem>();
+                
+                
                 if (gi != null && LeatherworksUtils.IsFriedBark(gi.name) == true)
                 {
                     LWFunctionalities.SetCrushBarkActive(true);
@@ -85,16 +73,27 @@ namespace Leatherworks
                 {
                     LWFunctionalities.SetCrushBarkActive(false);
                 }
-            }
-        }
 
-        [HarmonyPatch(typeof(ItemDescriptionPage), nameof(ItemDescriptionPage.UpdateGearItemDescription))]
-        internal class UpdatePileBarkButton
-        {
-            private static void Postfix(ItemDescriptionPage __instance, GearItem gi)
-            {
-                if (__instance != InterfaceManager.GetPanel<Panel_Inventory>()?.m_ItemDescriptionPage) return;
-                LWFunctionalities.pileItem = gi?.GetComponent<GearItem>();
+                if (gi.name == "GEAR_BarkPrepared")
+                {
+                    LWFunctionalities.SetMakeRopeActive(true);
+                }
+                else
+                {
+                    LWFunctionalities.SetMakeRopeActive(false);
+                }
+
+                if (gi.name == "GEAR_BarkRope")
+                {
+                    LWFunctionalities.SetMakeStringActive(true);
+                }
+                else
+                {
+                    LWFunctionalities.SetMakeStringActive(false);
+                }
+
+
+
                 if (gi != null && LeatherworksUtils.IsFriedBarkPileable(gi.name) == true)
                 {
                     LWFunctionalities.SetPileBarkActive(true);
@@ -103,16 +102,18 @@ namespace Leatherworks
                 {
                     LWFunctionalities.SetPileBarkActive(false);
                 }
-            }
-        }
 
-        [HarmonyPatch(typeof(ItemDescriptionPage), nameof(ItemDescriptionPage.UpdateGearItemDescription))]
-        internal class UpdatePlaceBoxButton
-        {
-            private static void Postfix(ItemDescriptionPage __instance, GearItem gi)
-            {
-                if (__instance != InterfaceManager.GetPanel<Panel_Inventory>()?.m_ItemDescriptionPage) return;
-                LWFunctionalities.placeBoxItem = gi?.GetComponent<GearItem>();
+                if (gi != null && LeatherworksUtils.IsFriedBarkUnPileable(gi.name) == true)
+                {
+                    LWFunctionalities.SetUnPileBarkActive(true);
+                }
+                else
+                {
+                    LWFunctionalities.SetUnPileBarkActive(false);
+                }
+
+
+
                 if (gi != null && gi.name.ToLowerInvariant().Contains("boxtanning"))
                 {
                     LWFunctionalities.SetPlaceBoxActive(true);
@@ -121,6 +122,25 @@ namespace Leatherworks
                 {
                     LWFunctionalities.SetPlaceBoxActive(false);
                 }
+
+                if (gi.name == "GEAR_BirchbarkPrepared")
+                {
+                    LWFunctionalities.SetFryBirchActive(true);
+                }
+                else
+                {
+                    LWFunctionalities.SetFryBirchActive(false);
+                }
+
+                if (gi.name == "GEAR_BirchBarkPreparedFryable")
+                {
+                    LWFunctionalities.SetReturnBirchActive(true);
+                }
+                else
+                {
+                    LWFunctionalities.SetReturnBirchActive(false);
+                }
+
             }
         }
 

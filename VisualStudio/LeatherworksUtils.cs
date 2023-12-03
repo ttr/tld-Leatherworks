@@ -19,7 +19,16 @@ namespace Leatherworks
         public static GearItem boxTanStart = Addressables.LoadAssetAsync<GameObject>("GEAR_MetalBoxTanning").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem flour = Addressables.LoadAssetAsync<GameObject>("GEAR_Flour").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem barkFriedPile = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkPreparedFriedPile").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem bark = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkPrepared").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem barkFried = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkPrepared").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem barkPile = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkPreparedPile").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem birchFried = Addressables.LoadAssetAsync<GameObject>("GEAR_BirchBarkPreparedFried").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem birchPile = Addressables.LoadAssetAsync<GameObject>("GEAR_BirchBarkPreparedPile").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem birchClassic = Addressables.LoadAssetAsync<GameObject>("GEAR_BirchbarkPrepared").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem birchFry = Addressables.LoadAssetAsync<GameObject>("GEAR_BirchBarkPreparedFryable").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem birchFriedPile = Addressables.LoadAssetAsync<GameObject>("GEAR_BirchBarkPreparedFriedPile").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem stringbundle = Addressables.LoadAssetAsync<GameObject>("GEAR_StringBundle").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem barkrope = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkRope").WaitForCompletion().GetComponent<GearItem>();
         public static GameObject GetPlayer()
         {
             return GameManager.GetPlayerObject();
@@ -58,10 +67,20 @@ namespace Leatherworks
 
         public static bool IsFriedBarkPileable(string gearItemName)
         {
-            string[] friedBark = { "GEAR_BarkPreparedFried" , "GEAR_BarkPrepared"};
+            string[] friedBark = { "GEAR_BarkPreparedFried" , "GEAR_BarkPrepared" , "GEAR_BirchbarkPrepared" , "GEAR_BirchBarkPreparedFried" };
             for (int i = 0; i < friedBark.Length; i++)
             {
                 if (gearItemName == friedBark[i]) return true;
+            }
+            return false;
+        }
+
+        public static bool IsFriedBarkUnPileable(string gearItemName)
+        {
+            string[] piledBark = { "GEAR_BarkPreparedFriedPile", "GEAR_BarkPreparedPile", "GEAR_BirchBarkPreparedPile" , "GEAR_BirchBarkPreparedFriedPile"};
+            for (int i = 0; i < piledBark.Length; i++)
+            {
+                if (gearItemName == piledBark[i]) return true;
             }
             return false;
         }
@@ -125,6 +144,20 @@ namespace Leatherworks
                 MelonLoader.MelonLogger.Msg($"Returning null since this could not obtain a Game Object from the component. Stack trace:\n{exception.Message}");
             }
             return null;
+        }
+
+        public static bool IsScenePlayable()
+        {
+            return !(string.IsNullOrEmpty(GameManager.m_ActiveScene) || GameManager.m_ActiveScene.Contains("MainMenu") || GameManager.m_ActiveScene == "Boot" || GameManager.m_ActiveScene == "Empty");
+        }
+
+        public static bool IsScenePlayable(string scene)
+        {
+            return !(string.IsNullOrEmpty(scene) || scene.Contains("MainMenu") || scene == "Boot" || scene == "Empty");
+        }
+        public static bool IsMainMenu(string scene)
+        {
+            return !string.IsNullOrEmpty(scene) && scene.Contains("MainMenu");
         }
 
     }

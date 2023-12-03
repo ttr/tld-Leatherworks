@@ -34,7 +34,7 @@
     "DaysToDecayIndoors": 0,
     "Calories": 100,
     "Servings": 1,
-    "EatingTime": 5,
+    "EatingTime": 1,
     "EatingAudio": "PLAY_EATINGCRUNCHY",
     "EatingPackagedAudio": "",
     "ThirstEffect": -2,
