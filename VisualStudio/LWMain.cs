@@ -45,7 +45,6 @@ namespace ModNamespace
             if (!addedCustomComponents)
             {
                 GameObject gear;
-                GearItem gearI;
 
                 //string tanning = "CookedTanning";
                 string gear1 = "CookedBirchBarkNoodles";
@@ -54,27 +53,27 @@ namespace ModNamespace
                 string gear4 = "BarkPreparedFriedPile";
                 string gear5 = "CookedBarkNoodles";
                 string gear6 = "CookedBarkBannock";
+                string gear7 = "AcornCookedBig";
 
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear1).gameObject;
 
-
                 gear.AddComponent<ConditionOverTimeBuff>();
-                gear.GetComponent<ConditionOverTimeBuff>().m_ConditionIncreasePerHour = 1.5f;
-                gear.GetComponent<ConditionOverTimeBuff>().m_NumHours = 3f;
+                gear.GetComponent<ConditionOverTimeBuff>().m_ConditionIncreasePerHour = 1.75f;
+                gear.GetComponent<ConditionOverTimeBuff>().m_NumHours = 2f;
 
 
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear2).gameObject;
 
                 gear.AddComponent<ConditionOverTimeBuff>();
                 gear.GetComponent<ConditionOverTimeBuff>().m_ConditionIncreasePerHour = 2f;
-                gear.GetComponent<ConditionOverTimeBuff>().m_NumHours = 4f;
+                gear.GetComponent<ConditionOverTimeBuff>().m_NumHours = 3f;
 
 
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear3).gameObject;
 
                 gear.AddComponent<ConditionOverTimeBuff>();
-                gear.GetComponent<ConditionOverTimeBuff>().m_ConditionIncreasePerHour = 0.25f;
-                gear.GetComponent<ConditionOverTimeBuff>().m_NumHours = 0.125f;
+                gear.GetComponent<ConditionOverTimeBuff>().m_ConditionIncreasePerHour = 0.125f;
+                gear.GetComponent<ConditionOverTimeBuff>().m_NumHours = 0.25f;
 
 
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear4).gameObject;
@@ -97,6 +96,12 @@ namespace ModNamespace
                 gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityBuffDurationInHours = 1.5f;
                 gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityChangeKG = 2f;
 
+                gear = GearItem.LoadGearItemPrefab("GEAR_" + gear7).gameObject;
+
+                gear.AddComponent<FatigueBuff>();
+                gear.GetComponent<FatigueBuff>().m_DurationHours = 0.25f;
+                gear.GetComponent<FatigueBuff>().m_InitialPercentDecrease = 2.5f;
+                gear.GetComponent<FatigueBuff>().m_RateOfIncreaseScale = 0.9f;
 
                 //gear = GearItem.LoadGearItemPrefab("GEAR_" + bark).gameObject;
                 
@@ -105,8 +110,6 @@ namespace ModNamespace
                 //gear.AddComponent<PowderItem>().m_WeightKG = 1.5f;
                 //gear.AddComponent<PowderItem>().m_WeightLimitKG = 1.5f;
                 //gear.AddComponent<PowderItem>().m_CachedPtr intPtr = ;
-
-
 
 
                 addedCustomComponents = true;
@@ -178,3 +181,12 @@ namespace ModNamespace
 //gear.GetComponent<ProtectionBuff>().m_AfflicationBodyArea = AfflictionBodyArea.Chest;
 //gear.GetComponent<ProtectionBuff>().m_AnimalDamageModifier = 1.5f;
 //gear.GetComponent<ProtectionBuff>().m_ProtectionType = ProtectionType.BallisticVest;
+
+//FoodMaxStatBuff
+//CabinFeverReductionBuff
+//ConditionRestBuff
+//Scent
+//FreezingBuff
+//CausesHeadacheDebuff
+//FoodStatEffect
+//

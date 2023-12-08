@@ -38,7 +38,7 @@
     "HoursToDryNearFire": 8,
     "HoursToDryWithoutFire": 18,
     "HoursToFreeze": 5,
-    "MainTexture": "CLTH_improvedlongjohns_HMM",
+    "MainTexture": "CLTH_improvedlongjohns_HMM_",
     "BlendTexture": "CLTH_improvedlongjohns_blend_M_",
     "DrawLayer": 1,
     "ImplementationType": ""
@@ -55,7 +55,7 @@
     "Minutes": 60,
     "Condition": 35,
     "RequiredTools": [ "GEAR_SewingKit", "GEAR_HookAndLine" ],
-    "MaterialNames": [ "GEAR_LeatherHideDried" , "GEAR_StringBundle"],
+    "MaterialNames": [ "GEAR_LeatherDried" , "GEAR_StringBundle"],
     "MaterialCounts": [ 2 , 1 ]
   }
 }

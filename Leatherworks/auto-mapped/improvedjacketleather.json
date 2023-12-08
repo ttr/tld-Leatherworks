@@ -38,9 +38,9 @@
     "HoursToDryNearFire": 12,
     "HoursToDryWithoutFire": 20,
     "HoursToFreeze": 5,
-    "MainTexture": "CLTH_improvedjacketleather_HMM",
+    "MainTexture": "CLTH_improvedjacketleather_HMM_",
     "BlendTexture": "CLTH_improvedjacketleather_blend_M_",
-    "DrawLayer": 42,
+    "DrawLayer": 27,
     "ImplementationType": ""
   },
   "ModHarvestableBehaviour": {
@@ -55,7 +55,7 @@
     "Minutes": 45,
     "Condition": 20,
     "RequiredTools": [ "GEAR_SewingKit", "GEAR_HookAndLine" ],
-    "MaterialNames": [ "GEAR_LeatherHideDried" , "GEAR_StringBundle" ],
+    "MaterialNames": [ "GEAR_LeatherDried" , "GEAR_StringBundle" ],
     "MaterialCounts": [ 2 , 1 ]
   }
 }

@@ -29,6 +29,10 @@ namespace Leatherworks
         public static GearItem birchFriedPile = Addressables.LoadAssetAsync<GameObject>("GEAR_BirchBarkPreparedFriedPile").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem stringbundle = Addressables.LoadAssetAsync<GameObject>("GEAR_StringBundle").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem barkrope = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkRope").WaitForCompletion().GetComponent<GearItem>();
+
+        public static GearItem knifecamp1 = Addressables.LoadAssetAsync<GameObject>("GEAR_JeremiahKnife").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem knifecamp2 = Addressables.LoadAssetAsync<GameObject>("GEAR_KnifeScrapMetal").WaitForCompletion().GetComponent<GearItem>();
+
         public static GameObject GetPlayer()
         {
             return GameManager.GetPlayerObject();

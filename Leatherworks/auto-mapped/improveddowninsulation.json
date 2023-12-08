@@ -38,7 +38,7 @@
     "HoursToDryNearFire": 12,
     "HoursToDryWithoutFire": 20,
     "HoursToFreeze": 5,
-    "MainTexture": "CLTH_improveddowninsulation_HMM",
+    "MainTexture": "CLTH_improveddowninsulation_HMM_",
     "BlendTexture": "CLTH_improveddowninsulation_blend_M_",
     "DrawLayer": 42,
     "ImplementationType": ""
