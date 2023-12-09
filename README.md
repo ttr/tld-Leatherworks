@@ -16,6 +16,7 @@ https://github.com/TonisGaming/Leatherworks/assets/18740935/66da02ba-7129-4f36-a
 ## Installation
 
 * Download the latest version from releases and place the .dll and .modcomponent into the mods folder
+* If you want compatibility with Camping Tools, download LeatherworksCT.dll instead of Leatherworks.dll
 
 * Requires [Modder's Tool Box](https://github.com/Jods-Its/Modders-Gear-Toolbox/releases) and [ModComponent](https://github.com/dommrogers/ModComponent) with its dependencies
 
@@ -40,6 +41,15 @@ https://github.com/TonisGaming/Leatherworks/assets/18740935/66da02ba-7129-4f36-a
 * Added Improved Down Insulation, Improved Thermal Underwear and Improved Leather Jacket (My artistic skills aren't great, but that was evident already I think)
 * Added crafting recipes for the Leather Flight Jacket, Improved Down Insulation, Improved Underwear and Improved Flight Jacket
 * Added settings to customize item amounts needed for making flour and filling a metal box with tanning
+
+**V1.1.2**
+
+* Added a separate DLL for Camping Tools compatibility (Uninstall Leatherworks and replace it with LeatherworksCT if you want the ability to use the Camping Tools knives)
+* Tweaked the buffs of Birch Bark and Bark foods
+* Added a small fatigue buff to Acorns (Cooked - Large Portion)
+* Reduced durability loss (5 -> 3) of knife on making bark rope
+* Fixed Improved Underwear and Improved Leather Jacket needing Cured Deer Hide instead of Cured Leather to repair
+
 
 ## Credits
 
