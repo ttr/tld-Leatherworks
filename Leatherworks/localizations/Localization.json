@@ -29,6 +29,9 @@
 	"GAMEPLAY_TreeBarkDescription": {
 		"English": "The bark from a tree. Might be handy for tanning."
 	},
+	"GAMEPLAY_BarkMultiple": {
+		"English": "Pieces"
+	},
 	"GAMEPLAY_BarkRope": {
 		"English": "Bark Cordage"
 	},
@@ -160,6 +163,42 @@
 	},
 	"GAMEPLAY_ImprovedLongJohnsDescription": {
 		"English": "Thermal underwear with loads of leather patches. Might get a bit sweaty."
+	},
+	"GAMEPLAY_ImprovisedFlask": {
+		"English": "Improvised Flask"
+	},
+	"GAMEPLAY_ImprovisedFlaskDescription": {
+		"English": "A can wrapped in some cloth with a small lid. Will keep your drinks warmer longer than your regular cup."
+	},
+	"GAMEPLAY_InsulatedFlask_Paint": {
+		"English": "Paint Insulated Flask"
+	},
+	"GAMEPLAY_InsulatedFlask_PaintDescription": {
+		"English": "A portable container for keeping beverages warm. Seems to keep your drink warm for a strangely long time."
+	},
+	"GAMEPLAY_InsulatedFlask_T_A": {
+		"English": "Insulated Flask"
+	},
+	"GAMEPLAY_InsulatedFlask_T_ADescription": {
+		"English": "A portable container for keeping beverages warm."
+	},
+	"GAMEPLAY_InsulatedFlask_T_B": {
+		"English": "Insulated Flask"
+	},
+	"GAMEPLAY_InsulatedFlask_T_BDescription": {
+		"English": "A portable container for keeping beverages warm."
+	},
+	"GAMEPLAY_InsulatedFlask_T_C": {
+		"English": "Insulated Flask"
+	},
+	"GAMEPLAY_InsulatedFlask_T_CDescription": {
+		"English": "A portable container for keeping beverages warm. Seems to have belonged to a tourist."
+	},
+	"GAMEPLAY_PryTool": {
+		"English": "Pry Tool"
+	},
+	"GAMEPLAY_PryToolDescription": {
+		"English": "Usually used for breaking into cars, but maybe you could open some doors instead."
 	},
 	"GAMEPLAY_LW_NoScrape": {
 		"English": "You require a knife for this action"

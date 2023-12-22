@@ -2,6 +2,7 @@
 using HarmonyLib;
 using UnityEngine;
 using Il2CppSteamworks;
+using Il2CppTLD.Gear;
 
 namespace Leatherworks
 {
@@ -32,6 +33,7 @@ namespace Leatherworks
                 LWFunctionalities.placeBoxItem = gi?.GetComponent<GearItem>();
                 LWFunctionalities.ropeItem = gi?.GetComponent<GearItem>();
                 LWFunctionalities.stringItem = gi?.GetComponent<GearItem>();
+
                 if (gi != null && LeatherworksUtils.IsFur(gi.name) == true)
                 {
                     LWFunctionalities.SetScrapeFurActive(true);

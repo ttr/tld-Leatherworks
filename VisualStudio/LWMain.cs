@@ -45,6 +45,8 @@ namespace ModNamespace
             if (!addedCustomComponents)
             {
                 GameObject gear;
+                GearItem itemGear;
+                InsulatedFlaskLiquidTypeConstraint liquidRestriction;
 
                 //string tanning = "CookedTanning";
                 string gear1 = "CookedBirchBarkNoodles";
@@ -54,6 +56,11 @@ namespace ModNamespace
                 string gear5 = "CookedBarkNoodles";
                 string gear6 = "CookedBarkBannock";
                 string gear7 = "AcornCookedBig";
+                string gear8 = "ImprovisedFlask";
+                string gear9 = "InsulatedFlask_Paint";
+                string gear10 = "InsulatedFlask_T_A";
+                string gear11 = "InsulatedFlask_T_B";
+                string gear12 = "InsulatedFlask_T_C";
 
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear1).gameObject;
 
@@ -103,8 +110,81 @@ namespace ModNamespace
                 gear.GetComponent<FatigueBuff>().m_InitialPercentDecrease = 2.5f;
                 gear.GetComponent<FatigueBuff>().m_RateOfIncreaseScale = 0.9f;
 
+                gear = GearItem.LoadGearItemPrefab("GEAR_" + gear8).gameObject;
+                itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear8);
+                liquidRestriction = GearItem.LoadGearItemPrefab("GEAR_InsulatedFlask_A").GetComponent<InsulatedFlask>().m_ItemConstraints;
+
+
+                gear.AddComponent<InsulatedFlask>();
+                gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
+                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.4f;
+                gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
+                gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.35f;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteOutdoors = 0.6f;
+                gear.GetComponent<InsulatedFlask>().m_RangeToPreventHeatLossWhenNextToFire = 10;
+
+                gear = GearItem.LoadGearItemPrefab("GEAR_" + gear9).gameObject;
+                itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear9);
+                liquidRestriction = GearItem.LoadGearItemPrefab("GEAR_InsulatedFlask_A").GetComponent<InsulatedFlask>().m_ItemConstraints;
+
+
+                gear.AddComponent<InsulatedFlask>();
+                gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
+                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.1f;
+                gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
+                gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.01f;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteOutdoors = 0.01f;
+                gear.GetComponent<InsulatedFlask>().m_RangeToPreventHeatLossWhenNextToFire = 10;
+
+                gear = GearItem.LoadGearItemPrefab("GEAR_" + gear10).gameObject;
+                itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear10);
+                liquidRestriction = GearItem.LoadGearItemPrefab("GEAR_InsulatedFlask_A").GetComponent<InsulatedFlask>().m_ItemConstraints;
+
+
+                gear.AddComponent<InsulatedFlask>();
+                gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
+                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.8f;
+                gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
+                gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.25f;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteOutdoors = 0.5f;
+                gear.GetComponent<InsulatedFlask>().m_RangeToPreventHeatLossWhenNextToFire = 10;
+
+                gear = GearItem.LoadGearItemPrefab("GEAR_" + gear11).gameObject;
+                itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear11);
+                liquidRestriction = GearItem.LoadGearItemPrefab("GEAR_InsulatedFlask_A").GetComponent<InsulatedFlask>().m_ItemConstraints;
+
+
+                gear.AddComponent<InsulatedFlask>();
+                gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
+                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.8f;
+                gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
+                gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.25f;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteOutdoors = 0.5f;
+                gear.GetComponent<InsulatedFlask>().m_RangeToPreventHeatLossWhenNextToFire = 10;
+
+                gear = GearItem.LoadGearItemPrefab("GEAR_" + gear12).gameObject;
+                itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear12);
+                liquidRestriction = GearItem.LoadGearItemPrefab("GEAR_InsulatedFlask_A").GetComponent<InsulatedFlask>().m_ItemConstraints;
+
+
+                gear.AddComponent<InsulatedFlask>();
+                gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
+                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.8f;
+                gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
+                gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.25f;
+                gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteOutdoors = 0.5f;
+                gear.GetComponent<InsulatedFlask>().m_RangeToPreventHeatLossWhenNextToFire = 10;
+
+
+
+
                 //gear = GearItem.LoadGearItemPrefab("GEAR_" + bark).gameObject;
-                
+
                 //gear.AddComponent<PowderItem>();
                 //gear.AddComponent<PowderItem>().m_Type = ;
                 //gear.AddComponent<PowderItem>().m_WeightKG = 1.5f;

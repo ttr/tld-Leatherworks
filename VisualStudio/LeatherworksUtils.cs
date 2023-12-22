@@ -1,7 +1,6 @@
 ﻿using UnityEngine.AddressableAssets;
 using UnityEngine;
 using Il2Cpp;
-using Unity.VisualScripting;
 using MelonLoader;
 
 namespace Leatherworks
@@ -20,7 +19,7 @@ namespace Leatherworks
         public static GearItem flour = Addressables.LoadAssetAsync<GameObject>("GEAR_Flour").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem barkFriedPile = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkPreparedFriedPile").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem bark = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkPrepared").WaitForCompletion().GetComponent<GearItem>();
-        public static GearItem barkFried = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkPrepared").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem barkFried = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkPreparedFried").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem barkPile = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkPreparedPile").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem birchFried = Addressables.LoadAssetAsync<GameObject>("GEAR_BirchBarkPreparedFried").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem birchPile = Addressables.LoadAssetAsync<GameObject>("GEAR_BirchBarkPreparedPile").WaitForCompletion().GetComponent<GearItem>();
@@ -41,19 +40,19 @@ namespace Leatherworks
         {
             if (Settings.instance.noCured == true)
             {
-                string[] fur = { "GEAR_MooseHide", "GEAR_LeatherHide", "GEAR_RabbitPelt", "GEAR_WolfPelt", "GEAR_BearHide", "GEAR_MooseHideCured", "GEAR_LeatherHideCured", "GEAR_RabbitPeltCured", "GEAR_WolfPeltCured", "GEAR_BearHideCured" };
-                for (int i = 0; i < fur.Length; i++)
+                string[] furScrape = { "GEAR_MooseHide", "GEAR_LeatherHide", "GEAR_RabbitPelt", "GEAR_WolfPelt", "GEAR_BearHide", "GEAR_MooseHideDried", "GEAR_LeatherHideCured", "GEAR_RabbitPeltDried", "GEAR_WolfPeltDried", "GEAR_BearHideDried" };
+                for (int i = 0; i < furScrape.Length; i++)
                 {
-                    if (gearItemName == fur[i]) return true;
+                    if (gearItemName == furScrape[i]) return true;
                 }
                 return false;
             }
             else
             {
-                string[] fur = { "GEAR_MooseHideCured", "GEAR_LeatherHideCured", "GEAR_RabbitPeltCured", "GEAR_WolfPeltCured", "GEAR_BearHideCured" };
-                for (int i = 0; i < fur.Length; i++)
+                string[] furScrape = { "GEAR_MooseHideDried", "GEAR_LeatherHideDried", "GEAR_RabbitPeltDried", "GEAR_WolfPeltDried", "GEAR_BearHideDried" };
+                for (int i = 0; i < furScrape.Length; i++)
                 {
-                    if (gearItemName == fur[i]) return true;
+                    if (gearItemName == furScrape[i]) return true;
                 }
                 return false;
             }

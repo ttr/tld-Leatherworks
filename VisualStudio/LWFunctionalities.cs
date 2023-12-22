@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Unity.VisualScripting;
 using UnityEngine;
 using static Il2CppMono.Security.X509.X520;
 
@@ -102,11 +101,11 @@ namespace Leatherworks
             Utils.GetComponentInChildren<UILabel>(crushBarkButton).text = crushBarkText;
 
             pileBarkButton = UnityEngine.Object.Instantiate<GameObject>(equipButton, equipButton.transform.parent, true);
-            pileBarkButton.transform.Translate(0.345f, 0, 0);
+            pileBarkButton.transform.Translate(0.5f, 0, 0);
             Utils.GetComponentInChildren<UILabel>(pileBarkButton).text = pileBarkText;
 
             unPileBarkButton = UnityEngine.Object.Instantiate<GameObject>(equipButton, equipButton.transform.parent, true);
-            unPileBarkButton.transform.Translate(0.345f, 0, 0);
+            unPileBarkButton.transform.Translate(0.5f, 0, 0);
             Utils.GetComponentInChildren<UILabel>(unPileBarkButton).text = unPileBarkText;
 
             fryBirchButton = UnityEngine.Object.Instantiate<GameObject>(equipButton, equipButton.transform.parent, true);
@@ -226,8 +225,6 @@ namespace Leatherworks
             if (thisGearItem == null) return;
             if (GameManager.GetInventoryComponent().GearInInventory(knife1, 1) || GameManager.GetInventoryComponent().GearInInventory(knife2, 1) || GameManager.GetInventoryComponent().GearInInventory(knife3, 1) || GameManager.GetInventoryComponent().GearInInventory(knife4, 1))
             {
-                
-
                 GameAudioManager.PlayGuiConfirm();
                 InterfaceManager.GetPanel<Panel_GenericProgressBar>().Launch(Localization.Get("GAMEPLAY_LW_ScrapeProgressBar"), 5f, 0f, 0f,
                                 "PLAY_HARVESTINGLEATHER", null, false, true, new System.Action<bool, bool, float>(OnScrapeFurFinished));
@@ -746,7 +743,7 @@ namespace Leatherworks
 
         private static void OnPlaceBox()
         {
-            var toDrop = placeBoxItem?.m_StackableItem?.m_UnitsPerItem ?? 1;
+            var toDrop = placeBoxItem?.m_StackableItem?.m_Units ?? 1;
             toDrop = Mathf.Clamp(toDrop, 0, placeBoxItem?.m_StackableItem?.m_Units ?? 1);
             var dropped = placeBoxItem.Drop(toDrop);
             LeatherworksUtils.inventory.OnBack();
@@ -775,7 +772,7 @@ namespace Leatherworks
                 }
                 if (thisGearItem.name == "GEAR_BarkPrepared")
                 {
-                    if (bark.m_StackableItem.m_Units < 3)
+                    if (bark.m_StackableItem.m_Units < 4)
                     {
                         HUDMessage.AddMessage(Localization.Get("GAMEPLAY_LW_NoRope"));
                         GameAudioManager.PlayGUIError();
@@ -784,7 +781,7 @@ namespace Leatherworks
                     GameAudioManager.PlayGuiConfirm();
                     InterfaceManager.GetPanel<Panel_GenericProgressBar>().Launch(Localization.Get("GAMEPLAY_LW_MakeRopeProgressBar"), 2f, 3f, 0f,
                                     "PLAY_HARVESTINGLEATHER", null, false, true, new System.Action<bool, bool, float>(OnMakeRopeFinished));
-                    GameManager.GetInventoryComponent().RemoveGearFromInventory(bark.name, 3);
+                    GameManager.GetInventoryComponent().RemoveGearFromInventory(bark.name, 4);
                 }
                 else
                 {
@@ -811,15 +808,15 @@ namespace Leatherworks
             }    
             else if (GameManager.GetInventoryComponent().GearInInventory(knife2, 1))
             {
-                knife2.m_CurrentHP = knife2.m_CurrentHP - 3;
+                knife2.m_CurrentHP = knife2.m_CurrentHP - 4;
             }
-            if (GameManager.GetInventoryComponent().GearInInventory(knife3, 1))
+            else if (GameManager.GetInventoryComponent().GearInInventory(knife3, 1))
             {
-                knife3.m_CurrentHP = knife3.m_CurrentHP - 5;
+                knife3.m_CurrentHP = knife3.m_CurrentHP - 3;
             }
             else if (GameManager.GetInventoryComponent().GearInInventory(knife4, 1))
             {
-                knife4.m_CurrentHP = knife4.m_CurrentHP - 10;
+                knife4.m_CurrentHP = knife4.m_CurrentHP - 7;
             }
 
             GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(LeatherworksUtils.barkrope, 1);

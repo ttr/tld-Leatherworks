@@ -1,5 +1,5 @@
 {
-    "Name": "blueprint_flightjacketleather",
+  "Name": "blueprint_flightjacketleather",
   "RequiredGear": [
     {
       "Item": "GEAR_LeatherDried",
@@ -14,17 +14,17 @@
       "Count": 2
     }
   ],
-    "KeroseneLitersRequired": 0,
-    "GunpowderRequired": 0,
-    "RequiredTool": "GEAR_SewingKit",
-    "OptionalTools": [ "GEAR_HookAndLine" ],
-    "RequiredCraftingLocation": "Workbench",
-    "RequiresLitFire": false,
-    "RequiresLight": true,
-    "CraftedResult": "GEAR_JacketLeatherFlightA",
-    "CraftedResultCount": 1,
-    "DurationMinutes": 270,
-    "CraftingAudio": "",
-    "AppliedSkill" : "None",
-    "ImprovedSkill" : "None"
+  "KeroseneLitersRequired": 0,
+  "GunpowderRequired": 0,
+  "RequiredTool": "GEAR_SewingKit",
+  "OptionalTools": [ "GEAR_HookAndLine" ],
+  "RequiredCraftingLocation": "Workbench",
+  "RequiresLitFire": false,
+  "RequiresLight": true,
+  "CraftedResult": "GEAR_JacketLeatherFlightA",
+  "CraftedResultCount": 1,
+  "DurationMinutes": 270,
+  "CraftingAudio": "PLAY_CRAFTINGLEATHERHIDE",
+  "AppliedSkill": "None",
+  "ImprovedSkill": "None"
 }

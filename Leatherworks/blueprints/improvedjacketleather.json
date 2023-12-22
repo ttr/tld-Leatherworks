@@ -28,7 +28,7 @@
   "CraftedResult": "GEAR_ImprovedJacketLeather",
   "CraftedResultCount": 1,
   "DurationMinutes": 180,
-  "CraftingAudio": "",
+  "CraftingAudio": "PLAY_CRAFTINGLEATHERHIDE",
   "AppliedSkill": "None",
   "ImprovedSkill": "None"
 }

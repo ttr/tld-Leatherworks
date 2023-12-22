@@ -10,15 +10,11 @@
       {
         "Item": "GEAR_BarkPrepared",
         "Count": 4
-      },
-      {
-        "Item": "GEAR_CookingOil",
-        "Count": 1
       }
     ],
     "RequiredPowder": [
       {
-        "Powder": "POWDER_GunPowder",
+        "Powder": "POWDER_Flour",
         "QuantityInKilograms": 0.2
       }
     ],
@@ -26,6 +22,10 @@
       {
         "Liquid": "LIQUID_WaterPotable",
         "VolumeInLitres": 0.2
+      },
+      {
+        "Liquid": "LIQUID_CookingOil",
+        "VolumeInLitres": 0.05
       }
     ],
     "CraftedResult": "GEAR_UncookedBarkBannock",

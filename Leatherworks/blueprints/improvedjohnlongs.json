@@ -28,7 +28,7 @@
   "CraftedResult": "GEAR_ImprovedLongJohns",
   "CraftedResultCount": 1,
   "DurationMinutes": 90,
-  "CraftingAudio": "",
+  "CraftingAudio": "PLAY_CRAFTINGCLOTH",
   "AppliedSkill": "None",
   "ImprovedSkill": "None"
 }
