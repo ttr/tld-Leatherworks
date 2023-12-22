@@ -50,6 +50,14 @@ https://github.com/TonisGaming/Leatherworks/assets/18740935/66da02ba-7129-4f36-a
 * Reduced durability loss (5 -> 3) of knife on making bark rope
 * Fixed Improved Underwear and Improved Leather Jacket needing Cured Deer Hide instead of Cured Leather to repair
 
+**V1.2**
+
+* Added the Improvised Flask, a craftable weaker variant of the Insulated Flask
+* Added 4 new Insulated Flask variants, 3 of them being normal with the 4th being an easter egg and has unique traits (Good luck finding that one). Currently they only have 1 spawn point that is guaranteed
+* Added the Prytool, a craftable prybar with 2 uses
+* Added a blueprint for making Prepared Bark to make bulk harvesting a bit better
+* Increased the amount of bark needed to make bark rope (3 -> 4)
+
 
 ## Credits
 
