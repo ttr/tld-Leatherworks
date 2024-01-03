@@ -1,287 +1,382 @@
 {
 	"GAMEPLAY_MetalBoxTanning": {
-		"English": "Metal Box with Leather Preparing"
+		"English": "Metal Box with Leather Preparing",
+		"Turkish": "Deri Yapım Seti İçeren Metal Kutu"
 	},
 	"GAMEPLAY_MetalBoxTanningDescription": {
-		"English": "A box containing tanning and scraped leather to make leather."
+		"English": "A box containing tanning and scraped leather to make leather.",
+		"Turkish": "Deri yapmak için tabaklanmış ve kazınmış deri içeren bir kutu."
 	},
 	"GAMEPLAY_MetalBoxTanFilled": {
-		"English": "Metal Box with Tanning"
+		"English": "Metal Box with Tanning",
+		"Turkish": "Tabaklama İçeren Metal Kutu"
 	},
 	"GAMEPLAY_MetalBoxTanFilledDescription": {
-		"English": "A metal box filled with tanning to prepare leather."
+		"English": "A metal box filled with tanning to prepare leather.",
+		"Turkish": "Deri yapmak için tabaklama ile doldurulmuş metal bir kutu."
 	},
 	"GAMEPLAY_MetalBoxTanned": {
-		"English": "Metal Box with Prepared Leather"
+		"English": "Metal Box with Prepared Leather",
+		"Turkish": "Hazır Deri İçeren Metal Kutu"
 	},
 	"GAMEPLAY_MetalBoxTannedDescription": {
-		"English": "A metal box containing prepared leather."
+		"English": "A metal box containing prepared leather.",
+		"Turkish": "Hazır deri içeren metal bir kutu."
 	},
 	"GAMEPLAY_LeatherScraped": {
-		"English": "Scraped Leather"
+		"English": "Scraped Leather",
+		"Turkish": "Yüzülmüş Deri"
 	},
 	"GAMEPLAY_LeatherScrapedDescription": {
-		"English": "A piece of raw leather, that has been cleaned and cut from animal hide."
+		"English": "A piece of raw leather, that has been cleaned and cut from animal hide.",
+		"Turkish": "Temizlenmiş ve hayvan derisinden kesilmiş bir parça ham deri."
 	},
 	"GAMEPLAY_TreeBark": {
-		"English": "Tree Bark"
+		"English": "Tree Bark",
+		"Turkish": "Ağaç Kabuğu"
 	},
 	"GAMEPLAY_TreeBarkDescription": {
-		"English": "The bark from a tree. Might be handy for tanning."
+		"English": "The bark from a tree. Might be handy for tanning.",
+		"Turkish": "Bir ağacın kabuğu. Bronzlaşmak için kullanışlı olabilir."
 	},
 	"GAMEPLAY_BarkMultiple": {
-		"English": "Pieces"
+		"English": "Pieces",
+		"Turkish": "Parçalar"
 	},
 	"GAMEPLAY_BarkRope": {
-		"English": "Bark Cordage"
+		"English": "Bark Cordage",
+		"Turkish": "Ağaç Kabuğu Lifinden Halat"
 	},
 	"GAMEPLAY_BarkRopeDescription": {
-		"English": "A simple rope made out of bark fibers. Surprisingly strong."
+		"English": "A simple rope made out of bark fibers. Surprisingly strong.",
+		"Turkish": "Ağaç kabuğu liflerinden yapılmış basit bir halat. Şaşırtıcı derecede güçlü."
 	},
 	"GAMEPLAY_CookedTanning": {
-		"English": "Tanning"
+		"English": "Tanning",
+		"Turkish": "Tabaklama"
 	},
 	"GAMEPLAY_CookedTanningDescription": {
-		"English": "A dark thick liquid, that is used in preparing leather."
+		"English": "A dark thick liquid, that is used in preparing leather.",
+		"Turkish": "Deri hazırlamada kullanılan koyu kıvamlı bir sıvıdır."
 	},
 	"GAMEPLAY_UncookedTanning": {
-		"English": "Wet Treebark"
+		"English": "Wet Treebark",
+		"Turkish": "Islak Ağaç Kabuğu"
 	},
 	"GAMEPLAY_UncookedTanningDescription": {
-		"English": "Something between bark and tanning. Useless in its current form."
+		"English": "Something between bark and tanning. Useless in its current form.",
+		"Turkish": "Kabuk ile tabaklama arasında bir şey. Şu anki haliyle işe yaramaz."
 	},
 	"GAMEPLAY_BarkPrepared": {
-		"English": "Prepared Bark"
+		"English": "Prepared Bark",
+		"Turkish": "Hazırlanmış Ağaç Kabuğu"
 	},
 	"GAMEPLAY_BarkPreparedDescription": {
-		"English": "A chunk of prepared bark. Could be cooked into food or fried and crushed to get some flour."
+		"English": "A chunk of prepared bark. Could be cooked into food or fried and crushed to get some flour.",
+		"Turkish": "Hazırlanmış ağaç kabuğu parçası. Yemek olarak pişirilebilir veya kızartılıp ezilerek un elde edilebilir."
 	},
 	"GAMEPLAY_BarkPreparedFried": {
-		"English": "Fried Prepared Bark"
+		"English": "Fried Prepared Bark",
+		"Turkish": "Kızarmış Ağaç Kabuğu"
 	},
 	"GAMEPLAY_BarkPreparedFriedDescription": {
-		"English": "A bit dry and tough. Tastes like potato chips. Could be crushed into flour."
+		"English": "A bit dry and tough. Tastes like potato chips. Could be crushed into flour.",
+		"Turkish": "Biraz kuru ve sert. Tadı patates cipsi gibi. Ezilerek un haline getirilebilir."
 	},
 	"GAMEPLAY_BarkPreparedPile": {
-		"English": "Pile of Prepared Bark"
+		"English": "Pile of Prepared Bark",
+		"Turkish": "Hazırlanmış Ağaç Kabuğu Yığını"
 	},
 	"GAMEPLAY_BarkPreparedPileDescription": {
-		"English": "A pile of prepared bark, perfect amount to fry in a batch."
+		"English": "A pile of prepared bark, perfect amount to fry in a batch.",
+		"Turkish": "Bir yığın hazırlanmış ağaç kabuğu, bir partide kızartmak için mükemmel miktar."
 	},
 	"GAMEPLAY_BarkPreparedFriedPile": {
-		"English": "Pile of Fried Prepared Bark"
+		"English": "Pile of Fried Prepared Bark",
+		"Turkish": "Kızarmış Hazır Ağaç Kabuğu Yığını"
 	},
 	"GAMEPLAY_BarkPreparedFriedPileDescription": {
-		"English": "A bit dry and tough. Tastes like potato chips. Could be crushed into flour."
+		"English": "A bit dry and tough. Tastes like potato chips. Could be crushed into flour.",
+		"Turkish": "Biraz kuru ve sert. Tadı patates cipsi gibi. Ezilerek un haline getirilebilir."
 	},
 	"GAMEPLAY_BirchBarkPreparedFryable": {
-		"English": "Prepared Birch Bark (Fryable)"
+		"English": "Prepared Birch Bark (Fryable)",
+		"Turkish": "Hazırlanmış Huş Kabuğu (Kızartılabilir)"
 	},
 	"GAMEPLAY_BirchBarkPreparedFryableDescription": {
-		"English": "A chunk of prepared birch bark. Could be cooked into food or fried."
+		"English": "A chunk of prepared birch bark. Could be cooked into food or fried.",
+		"Turkish": "Hazırlanmış bir parça huş ağacı kabuğu. Yemek olarak pişirilebilir veya kızartılabilir."
 	},
 	"GAMEPLAY_BirchBarkPreparedFried": {
-		"English": "Fried Prepared Birch Bark"
+		"English": "Fried Prepared Birch Bark",
+		"Turkish": "Kızarmış Hazır Huş Kabuğu"
 	},
 	"GAMEPLAY_BirchBarkPreparedFriedDescription": {
-		"English": "A bit dry and tough. Tastes like potato chips."
+		"English": "A bit dry and tough. Tastes like potato chips.",
+		"Turkish": "Biraz kuru ve sert. Tadı patates cipsi gibi."
 	},
 	"GAMEPLAY_BirchBarkPreparedPile": {
-		"English": "Pile of Prepared Birch Bark"
+		"English": "Pile of Prepared Birch Bark",
+		"Turkish": "Hazırlanmış Huş Kabuğu Yığını"
 	},
 	"GAMEPLAY_BirchBarkPreparedPileDescription": {
-		"English": "A pile of prepared birch bark, perfect amount to fry in a batch."
+		"English": "A pile of prepared birch bark, perfect amount to fry in a batch.",
+		"Turkish": "Bir yığın hazırlanmış huş ağacı kabuğu, bir partide kızartmak için mükemmel miktar."
 	},
 	"GAMEPLAY_BirchBarkPreparedFriedPile": {
-		"English": "Pile of Fried Prepared Birch Bark"
+		"English": "Pile of Fried Prepared Birch Bark",
+		"Turkish": "Kızarmış Huş Kabuğu Yığını"
 	},
 	"GAMEPLAY_BirchBarkPreparedFriedPileDescription": {
-		"English": "A bit dry and tough. Tastes like potato chips."
+		"English": "A bit dry and tough. Tastes like potato chips.",
+		"Turkish": "Biraz kuru ve sert. Tadı patates cipsi gibi."
 	},
 	"GAMEPLAY_UnCookedBarkNoodles": {
-		"English": "Uncooked Bark Noodles"
+		"English": "Uncooked Bark Noodles",
+		"Turkish": "Pişmemiş Ağaç Kabuğu Eriştesi"
 	},
 	"GAMEPLAY_UnCookedBarkNoodlesDescription": {
-		"English": "Prepared bark and water. Doesn't look that enticing."
+		"English": "Prepared bark and water. Doesn't look that enticing.",
+		"Turkish": "Hazır ağaç kabuğu ve su. Pek cazip görünmüyor."
 	},
 	"GAMEPLAY_CookedBarkNoodles": {
-		"English": "Bark Noodles"
+		"English": "Bark Noodles",
+		"Turkish": "Ağaç Kabuğu Eriştesi"
 	},
 	"GAMEPLAY_CookedBarkNoodlesDescription": {
-		"English": "A can of cooked prepared bark, some would even call them noodles. Don't ask where the can came from, just enjoy your meal."
+		"English": "A can of cooked prepared bark, some would even call them noodles. Don't ask where the can came from, just enjoy your meal.",
+		"Turkish": "Bir kutu pişmiş hazır ağaç kabuğu, hatta bazıları bunlara erişte bile diyebilir. Kutunun nereden geldiğini sormayın, sadece yemeğinizin tadını çıkarın."
 	},
 	"GAMEPLAY_UnCookedBarkBannock": {
-		"English": "Uncooked Bark Bannock"
+		"English": "Uncooked Bark Bannock",
+		"Turkish": "Pişmemiş Ağaç Kabuğu Çöreği"
 	},
 	"GAMEPLAY_UnCookedBarkBannockDescription": {
-		"English": "A bannock of all time, in the making. With extra bark."
+		"English": "A bannock of all time, in the making. With extra bark.",
+		"Turkish": "Tüm zamanların çöreği, yapım aşamasında. Ekstra kabuklu."
 	},
 	"GAMEPLAY_CookedBarkBannock": {
-		"English": "Bark Bannock"
+		"English": "Bark Bannock",
+		"Turkish": "Ağaç Kabuğu Çöreği"
 	},
 	"GAMEPLAY_CookedBarkBannockDescription": {
-		"English": "Flat bark bread. I heard this stuff is popular in Finland, maybe they get their happiness from it."
+		"English": "Flat bark bread. I heard this stuff is popular in Finland, maybe they get their happiness from it.",
+		"Turkish": "Yassı ağaç kabuklu ekmek. Bu şeyin Finlandiya'da popüler olduğunu duydum, belki de mutluluklarını bundan alıyorlar."
 	},
 	"GAMEPLAY_UnCookedBirchBarkNoodles": {
-		"English": "Uncooked Birch Bark Noodles"
+		"English": "Uncooked Birch Bark Noodles",
+		"Turkish": "Pişmemiş Huş Kabuğu Eriştesi"
 	},
 	"GAMEPLAY_UnCookedBirchBarkNoodlesDescription": {
-		"English": "Prepared bark and water. Doesn't look that enticing."
+		"English": "Prepared bark and water. Doesn't look that enticing.",
+		"Turkish": "Hazır ağaç kabuğu ve su. Pek cazip görünmüyor."
 	},
 	"GAMEPLAY_CookedBirchBarkNoodles": {
-		"English": "Birch Bark Noodles"
+		"English": "Birch Bark Noodles",
+		"Turkish": "Huş Kabuklu Erişte"
 	},
 	"GAMEPLAY_CookedBirchBarkNoodlesDescription": {
-		"English": "A can of cooked prepared bark, some would even call them noodles. Don't ask where the can came from, just enjoy your meal."
+		"English": "A can of cooked prepared bark, some would even call them noodles. Don't ask where the can came from, just enjoy your meal.",
+		"Turkish": "Bir kutu pişmiş hazır ağaç kabuğu, hatta bazıları bunlara erişte bile diyebilir. Kutunun nereden geldiğini sormayın, sadece yemeğinizin tadını çıkarın."
 	},
 	"GAMEPLAY_UnCookedBirchBarkBannock": {
-		"English": "Uncooked Birch Bark Bannock"
+		"English": "Uncooked Birch Bark Bannock",
+		"Turkish": "Pişmemiş Huş Kabuğu Çöreği"
 	},
 	"GAMEPLAY_UnCookedBirchBarkBannockDescription": {
-		"English": "A bannock of all time, in the making. With extra bark."
+		"English": "A bannock of all time, in the making. With extra bark.",
+		"Turkish": "Tüm zamanların çöreği, yapım aşamasında. Ekstra kabuklu."
 	},
 	"GAMEPLAY_CookedBirchBarkBannock": {
-		"English": "Birch Bark Bannock"
+		"English": "Birch Bark Bannock",
+		"Turkish": "Huş Kabuğu Çöreği"
 	},
 	"GAMEPLAY_CookedBirchBarkBannockDescription": {
-		"English": "Flat bark bread. I heard this stuff is popular in Finland, maybe they get their happiness from it."
+		"English": "Flat bark bread. I heard this stuff is popular in Finland, maybe they get their happiness from it.",
+		"Turkish": "Yassı ağaç kabuklu ekmek. Bu şeyin Finlandiya'da popüler olduğunu duydum, belki de mutluluklarını bundan alıyorlar."
 	},
 	"GAMEPLAY_ImprovedJacketLeather": {
-		"English": "Improved Flight Jacket"
+		"English": "Improved Flight Jacket",
+		"Turkish": "Deri Yamalı Uçuş Ceketi"
 	},
 	"GAMEPLAY_ImprovedJacketLeatherDescription": {
-		"English": "An already thick leather jacket modified with extra patches of leather. Should give you an extra second or two to escape a struggle."
+		"English": "An already thick leather jacket modified with extra patches of leather. Should give you an extra second or two to escape a struggle.",
+		"Turkish": "Zaten kalın olan deri ceket ekstra deri parçalarla değiştirilmiş. Boğuşmadan kaçmak için fazladan bir iki saniye kazandırır."
 	},
 	"GAMEPLAY_ImprovedDownInsulation": {
-		"English": "Improved Down Insulation"
+		"English": "Improved Down Insulation",
+		"Turkish": "Deri Yamalı İzolasyon Battaniyesi"
 	},
 	"GAMEPLAY_ImprovedDownInsulationDescription": {
-		"English": "A base layer improved with patches of leather. Warms the core to the point of sweating."
+		"English": "A base layer improved with patches of leather. Warms the core to the point of sweating.",
+		"Turkish": "Deri yamaları ile geliştirilmiş bir taban katmanı. Çekirdeği terleme noktasına kadar ısıtır."
 	},
 	"GAMEPLAY_ImprovedLongJohns": {
-		"English": "Improved Underwear"
+		"English": "Improved Underwear",
+		"Turkish": "Deri Yamalı İçlik"
 	},
 	"GAMEPLAY_ImprovedLongJohnsDescription": {
-		"English": "Thermal underwear with loads of leather patches. Might get a bit sweaty."
+		"English": "Thermal underwear with loads of leather patches. Might get a bit sweaty.",
+		"Turkish": "Bir sürü deri yamalı termal iç çamaşırı. Biraz terletebilir."
 	},
 	"GAMEPLAY_ImprovisedFlask": {
-		"English": "Improvised Flask"
+		"English": "Improvised Flask",
+		"Turkish": "El Yapımı Matara"
 	},
 	"GAMEPLAY_ImprovisedFlaskDescription": {
-		"English": "A can wrapped in some cloth with a small lid. Will keep your drinks warmer longer than your regular cup."
+		"English": "A can wrapped in some cloth with a small lid. Will keep your drinks warmer longer than your regular cup.",
+		"Turkish": "Küçük bir kapakla beze sarılmış bir kutu. İçeceklerinizi normal bardağınızdan daha uzun süre sıcak tutacaktır."
 	},
 	"GAMEPLAY_InsulatedFlask_Paint": {
-		"English": "Paint Insulated Flask"
+		"English": "Paint Insulated Flask",
+		"Turkish": "Boya İzoleli Matara"
 	},
 	"GAMEPLAY_InsulatedFlask_PaintDescription": {
-		"English": "A portable container for keeping beverages warm. Seems to keep your drink warm for a strangely long time."
+		"English": "A portable container for keeping beverages warm. Seems to keep your drink warm for a strangely long time.",
+		"Turkish": "İçecekleri sıcak tutmak için taşınabilir bir kap. İçeceğinizi garip bir şekilde uzun süre sıcak tutuyor gibi görünüyor."
 	},
 	"GAMEPLAY_InsulatedFlask_T_A": {
-		"English": "Insulated Flask"
+		"English": "Insulated Flask",
+		"Turkish": "Yalıtımlı Matara"
 	},
 	"GAMEPLAY_InsulatedFlask_T_ADescription": {
-		"English": "A portable container for keeping beverages warm."
+		"English": "A portable container for keeping beverages warm.",
+		"Turkish": "İçecekleri sıcak tutmak için taşınabilir bir kap."
 	},
 	"GAMEPLAY_InsulatedFlask_T_B": {
-		"English": "Insulated Flask"
+		"English": "Insulated Flask",
+		"Turkish": "Yalıtımlı Matara"
 	},
 	"GAMEPLAY_InsulatedFlask_T_BDescription": {
-		"English": "A portable container for keeping beverages warm."
+		"English": "A portable container for keeping beverages warm.",
+		"Turkish": "İçecekleri sıcak tutmak için taşınabilir bir kap."
 	},
 	"GAMEPLAY_InsulatedFlask_T_C": {
-		"English": "Insulated Flask"
+		"English": "Insulated Flask",
+		"Turkish": "Yalıtımlı Matara"
 	},
 	"GAMEPLAY_InsulatedFlask_T_CDescription": {
-		"English": "A portable container for keeping beverages warm. Seems to have belonged to a tourist."
+		"English": "A portable container for keeping beverages warm. Seems to have belonged to a tourist.",
+		"Turkish": "İçecekleri sıcak tutmak için taşınabilir bir kap. Bir turiste ait gibi görünüyor."
 	},
 	"GAMEPLAY_PryTool": {
-		"English": "Pry Tool"
+		"English": "Pry Tool",
+		"Turkish": "Maymuncuk"
 	},
 	"GAMEPLAY_PryToolDescription": {
-		"English": "Usually used for breaking into cars, but maybe you could open some doors instead."
+		"English": "Usually used for breaking into cars, but maybe you could open some doors instead.",
+		"Turkish": "Genellikle arabalara girmek için kullanılır, ama belki bunun yerine bazı kapıları açabilirsiniz."
 	},
 	"GAMEPLAY_LW_NoScrape": {
-		"English": "You require a knife for this action"
+		"English": "You require a knife for this action",
+		"Turkish": "Bu eylem için bir bıçağa ihtiyacınız var"
 	},
 	"GAMEPLAY_LW_ScrapeProgressBar": {
-		"English": "Scraping..."
+		"English": "Scraping...",
+		"Turkish": "Yüzülüyor"
 	},
 	"GAMEPLAY_LW_ScrapeLabel": {
-		"English": "Scrape"
+		"English": "Scrape",
+		"Turkish": "Sıyır"
 	},
 	"GAMEPLAY_LW_NoLeatherScraped": {
-		"English": "You require 5 scraped leather for this action"
+		"English": "You require 5 scraped leather for this action",
+		"Turkish": "Bu eylem için 5 yüzülmüş deri gerekir"
 	},
 	"GAMEPLAY_LW_TanLeatherProgressBar": {
-		"English": "Soaking..."
+		"English": "Soaking...",
+		"Turkish": "Sırılsıklam..."
 	},
 	"GAMEPLAY_LW_AddLeatherLabel": {
-		"English": "Soak"
+		"English": "Soak",
+		"Turkish": "Islat"
 	},
 	"GAMEPLAY_LW_NoTanning": {
-		"English": "You require tanning for this action"
+		"English": "You require tanning for this action",
+		"Turkish": "Bu eylem için tabaklamaya ihtiyacınız var"
 	},
 	"GAMEPLAY_LW_AddTanningProgressBar": {
-		"English": "Filling..."
+		"English": "Filling...",
+		"Turkish": "Dolduruyorum."
 	},
 	"GAMEPLAY_LW_AddTanningLabel": {
-		"English": "Add Tan"
+		"English": "Add Tan",
+		"Turkish": "Tabaklama ekle"
 	},
 	"GAMEPLAY_LW_NoBarkSmall": {
-		"English": "You require 35 pieces for this action"
+		"English": "You require 35 pieces for this action",
+		"Turkish": "Bu eylem için 35 parçaya ihtiyacınız var"
 	},
 	"GAMEPLAY_LW_NoBarkSmallPile": {
-		"English": "You require 5 pieces for this action"
+		"English": "You require 5 pieces for this action",
+		"Turkish": "Bu eylem için 5 parçaya ihtiyacınız var"
 	},
 	"GAMEPLAY_LW_CrushProgressBar": {
-		"English": "Crushing..."
+		"English": "Crushing...",
+		"Turkish": "Eziliyor..."
 	},
 	"GAMEPLAY_LW_NoBarkLarge": {
-		"English": "You require 7 pieces for this action"
+		"English": "You require 7 pieces for this action",
+		"Turkish": "Bu eylem için 7 parçaya ihtiyacınız var"
 	},
 	"GAMEPLAY_LW_CrushBarkLabel": {
-		"English": "Crush"
+		"English": "Crush",
+		"Turkish": "Ez"
 	},
 	"GAMEPLAY_LW_PileBarkLabel": {
-		"English": "Pile"
+		"English": "Pile",
+		"Turkish": "Yığın"
 	},
 	"GAMEPLAY_LW_PileProgressBar": {
-		"English": "Piling..."
+		"English": "Piling...",
+		"Turkish": "Yığınlanıyor..."
 	},
 	"GAMEPLAY_LW_UnPileProgressBar": {
-		"English": "Unpiling..."
+		"English": "Unpiling...",
+		"Turkish": "Ayrılıyor..."
 	},
 	"GAMEPLAY_LW_NoBark": {
-		"English": "You require a hammer/stone"
+		"English": "You require a hammer/stone",
+		"Turkish": "Bir çekiç veya taşa ihtiyacınız var"
 	},
 	"GAMEPLAY_LW_PlaceBoxLabel": {
-		"English": "Place"
+		"English": "Place",
+		"Turkish": "Yerleştir"
 	},
 	"GAMEPLAY_LW_FryBirchLabel": {
-		"English": "To Cook"
+		"English": "To Cook",
+		"Turkish": "Pişirmek İçin"
 	},
 	"GAMEPLAY_LW_ReturnBirchLabel": {
-		"English": "To Craft"
+		"English": "To Craft",
+		"Turkish": "Üretmek için"
 	},
 	"GAMEPLAY_LW_UnPileBarkLabel": {
-		"English": "Unpile"
+		"English": "Unpile",
+		"Turkish": "Ayır"
 	},
 	"GAMEPLAY_LW_NoRope": {
-		"English": "You require 3 pieces for this action"
+		"English": "You require 3 pieces for this action",
+		"Turkish": "Bu eylem için 3 parçaya ihtiyacınız var"
 	},
 	"GAMEPLAY_LW_MakeRopeLabel": {
-		"English": "Make Rope"
+		"English": "Make Rope",
+		"Turkish": "Halat Yapın"
 	},
 	"GAMEPLAY_LW_MakeRopeProgressBar": {
-		"English": "Stripping..."
+		"English": "Stripping...",
+		"Turkish": "Sıyırılıyor"
 	},
 	"GAMEPLAY_LW_NoString": {
-		"English": "You require 3 pieces for this action"
+		"English": "You require 3 pieces for this action",
+		"Turkish": "Bu eylem için 3 parçaya ihtiyacınız var"
 	},
 	"GAMEPLAY_LW_MakeStringLabel": {
-		"English": "Make String"
+		"English": "Make String",
+		"Turkish": "Dize Yap"
 	},
 	"GAMEPLAY_LW_MakeStringProgressBar": {
-		"English": "Bundling..."
+		"English": "Bundling...",
+		"Turkish": "Paketleniyor..."
 	}
 }
