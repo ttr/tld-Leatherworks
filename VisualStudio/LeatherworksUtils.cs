@@ -29,18 +29,19 @@ namespace Leatherworks
         public static GearItem stringbundle = Addressables.LoadAssetAsync<GameObject>("GEAR_StringBundle").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem barkrope = Addressables.LoadAssetAsync<GameObject>("GEAR_BarkRope").WaitForCompletion().GetComponent<GearItem>();
 
-        public static GearItem knifecamp1 = Addressables.LoadAssetAsync<GameObject>("GEAR_JeremiahKnife").WaitForCompletion().GetComponent<GearItem>();
-        public static GearItem knifecamp2 = Addressables.LoadAssetAsync<GameObject>("GEAR_KnifeScrapMetal").WaitForCompletion().GetComponent<GearItem>();
+        //public static GearItem knifecamp1 = Addressables.LoadAssetAsync<GameObject>("GEAR_JeremiahKnife").WaitForCompletion().GetComponent<GearItem>();
+        //public static GearItem knifecamp2 = Addressables.LoadAssetAsync<GameObject>("GEAR_KnifeScrapMetal").WaitForCompletion().GetComponent<GearItem>();
 
         public static GameObject GetPlayer()
         {
             return GameManager.GetPlayerObject();
         }
+
         public static bool IsFur(string gearItemName)
         {
             if (Settings.instance.noCured == true)
             {
-                string[] furScrape = { "GEAR_MooseHide", "GEAR_LeatherHide", "GEAR_RabbitPelt", "GEAR_WolfPelt", "GEAR_BearHide", "GEAR_MooseHideDried", "GEAR_LeatherHideCured", "GEAR_RabbitPeltDried", "GEAR_WolfPeltDried", "GEAR_BearHideDried" };
+                string[] furScrape = { "GEAR_MooseHide", "GEAR_LeatherHide", "GEAR_RabbitPelt", "GEAR_WolfPelt", "GEAR_BearHide", "GEAR_MooseHideDried", "GEAR_LeatherHideDried", "GEAR_RabbitPeltDried", "GEAR_WolfPeltDried", "GEAR_BearHideDried" };
                 for (int i = 0; i < furScrape.Length; i++)
                 {
                     if (gearItemName == furScrape[i]) return true;

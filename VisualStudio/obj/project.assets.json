@@ -4810,11 +4810,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tonis\\OneDrive\\Töölaud\\TLDMod\\LeatherScrapeButton\\VisualStudio\\Leatherworks.csproj",
+      "projectUniqueName": "C:\\Users\\tonis\\Desktop\\TLDMod\\LeatherScrapeButton\\VisualStudio\\Leatherworks.csproj",
       "projectName": "Leatherworks",
-      "projectPath": "C:\\Users\\tonis\\OneDrive\\Töölaud\\TLDMod\\LeatherScrapeButton\\VisualStudio\\Leatherworks.csproj",
+      "projectPath": "C:\\Users\\tonis\\Desktop\\TLDMod\\LeatherScrapeButton\\VisualStudio\\Leatherworks.csproj",
       "packagesPath": "C:\\Users\\tonis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tonis\\OneDrive\\Töölaud\\TLDMod\\LeatherScrapeButton\\VisualStudio\\obj\\",
+      "outputPath": "C:\\Users\\tonis\\Desktop\\TLDMod\\LeatherScrapeButton\\VisualStudio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tonis\\AppData\\Roaming\\NuGet\\NuGet.Config",

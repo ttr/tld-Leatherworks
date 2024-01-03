@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R2tNuZnz1JuGggPuw4p0y6WlPDeFoAqOmDktKxS+hy7fEyUr77QOrHlCpYMzVK56aLJF4SthUMHYvcop5J5lQA==",
+  "dgSpecHash": "+qzfTeCwBMO/lBowS4BeuPUGYlDax0e95sIb2930yCjtgNG2+loHMiAzF3FTIGygsnA7N8MnZ66O80QtXRtXDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tonis\\OneDrive\\Töölaud\\TLDMod\\LeatherScrapeButton\\VisualStudio\\Leatherworks.csproj",
+  "projectFilePath": "C:\\Users\\tonis\\Desktop\\TLDMod\\LeatherScrapeButton\\VisualStudio\\Leatherworks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tonis\\.nuget\\packages\\asmresolver\\5.0.0\\asmresolver.5.0.0.nupkg.sha512",
     "C:\\Users\\tonis\\.nuget\\packages\\asmresolver.dotnet\\5.0.0\\asmresolver.dotnet.5.0.0.nupkg.sha512",

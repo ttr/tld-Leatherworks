@@ -9,6 +9,7 @@ using Il2CppTLD.Gear;
 using Il2CppTLD.Gameplay.Condition;
 using Il2CppNodeCanvas.BehaviourTrees;
 using JetBrains.Annotations;
+using Il2CppMS.Internal.Xml.XPath;
 
 namespace ModNamespace
 {
@@ -47,6 +48,11 @@ namespace ModNamespace
                 GameObject gear;
                 GearItem itemGear;
                 InsulatedFlaskLiquidTypeConstraint liquidRestriction;
+                //var validtools = GearItem.LoadGearItemPrefab("GEAR_ToolBelt").GetComponent<WeightReductionBuff>().m_ValidTargets;
+                //var tools = GearItem.LoadGearItemPrefab("GEAR_ToolBelt").GetComponent<WeightReductionBuff>().m_Targets;
+                //var tools2 = GearItem.LoadGearItemPrefab("GEAR_ToolBelt").GetComponent<WeightReductionBuff>().m_OperationHandle;
+
+                
 
                 //string tanning = "CookedTanning";
                 string gear1 = "CookedBirchBarkNoodles";
@@ -61,7 +67,9 @@ namespace ModNamespace
                 string gear10 = "InsulatedFlask_T_A";
                 string gear11 = "InsulatedFlask_T_B";
                 string gear12 = "InsulatedFlask_T_C";
-
+                //string gear13 = "ToolbeltJeans";
+                //string gear14 = "ToolbeltCombatPants";
+                
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear1).gameObject;
 
                 gear.AddComponent<ConditionOverTimeBuff>();
@@ -182,14 +190,28 @@ namespace ModNamespace
 
 
 
+                //gear = GearItem.LoadGearItemPrefab("GEAR_" + gear13).gameObject;
+                //itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear13);
 
-                //gear = GearItem.LoadGearItemPrefab("GEAR_" + bark).gameObject;
+                //gear.AddComponent<WeightReductionBuff>();
+                //gear.GetComponent<WeightReductionBuff>().m_GearItem = itemGear;
+                //gear.GetComponent<WeightReductionBuff>().m_ValidTargets = validtools;
+                //gear.GetComponent<WeightReductionBuff>().m_Targets = tools;
+                //gear.GetComponent<WeightReductionBuff>().m_OperationHandle = tools2;
+                //gear.GetComponent<WeightReductionBuff>().m_AffectedItems = 3;
+                //gear.GetComponent<WeightReductionBuff>().m_WeightReduction = 0.5f;
 
-                //gear.AddComponent<PowderItem>();
-                //gear.AddComponent<PowderItem>().m_Type = ;
-                //gear.AddComponent<PowderItem>().m_WeightKG = 1.5f;
-                //gear.AddComponent<PowderItem>().m_WeightLimitKG = 1.5f;
-                //gear.AddComponent<PowderItem>().m_CachedPtr intPtr = ;
+                //gear = GearItem.LoadGearItemPrefab("GEAR_" + gear14).gameObject;
+                //itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear14);
+
+                //gear.AddComponent<WeightReductionBuff>();
+                //gear.GetComponent<WeightReductionBuff>().m_GearItem = itemGear;
+                //gear.GetComponent<WeightReductionBuff>().m_ValidTargets = validtools;
+                //gear.GetComponent<WeightReductionBuff>().m_Targets = tools;
+                //gear.GetComponent<WeightReductionBuff>().m_OperationHandle = tools2;
+                //gear.GetComponent<WeightReductionBuff>().m_AffectedItems = 3;
+                //gear.GetComponent<WeightReductionBuff>().m_WeightReduction = 0.5f;
+
 
 
                 addedCustomComponents = true;

@@ -4,7 +4,7 @@
     "DescriptionLocalizatonId": "GAMEPLAY_ImprovedDownInsulationDescription",
     "InventoryActionLocalizationId": "",
     "WeightKG": 0.6,
-    "DaysToDecay": 1500,
+    "DaysToDecay": 500,
     "MaxHP": 150,
     "InitialCondition": "Perfect",
     "InventoryCategory": "Clothing",

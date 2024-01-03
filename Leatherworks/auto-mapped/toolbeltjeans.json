@@ -1,10 +1,10 @@
 {
   "ModClothingComponent": {
-    "DisplayNameLocalizationId": "GAMEPLAY_ImprovedJacketLeather",
-    "DescriptionLocalizatonId": "GAMEPLAY_ImprovedJacketLeatherDescription",
+    "DisplayNameLocalizationId": "GAMEPLAY_ToolbeltJeans",
+    "DescriptionLocalizatonId": "GAMEPLAY_ToolbeltJeansDescription",
     "InventoryActionLocalizationId": "",
-    "WeightKG": 3,
-    "DaysToDecay": 700,
+    "WeightKG": 0.7,
+    "DaysToDecay": 250,
     "MaxHP": 150,
     "InitialCondition": "Perfect",
     "InventoryCategory": "Clothing",
@@ -20,7 +20,7 @@
     "NormalModel": "jacket_fold",
     "InspectModel": "jacket_unfold",
 
-    "Region": "Chest",
+    "Region": "Legs",
     "MinLayer": "Top",
     "MaxLayer": "Top2",
     "MovementSound": "LeatherHide",
