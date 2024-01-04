@@ -126,7 +126,8 @@
 	},
 	"GAMEPLAY_BirchBarkPreparedFryable": {
 		"English": "Prepared Birch Bark (Fryable)",
-		"Turkish": "Hazırlanmış Huş Kabuğu (Kızartılabilir)"
+		"Turkish": "Hazırlanmış Huş Kabuğu (Kızartılabilir)",
+		"Italian": "Corteccia di Betulla Preparata (Friggibile)"
 	},
 	"GAMEPLAY_BirchBarkPreparedFryableDescription": {
 		"English": "A chunk of prepared birch bark. Could be cooked into food or fried.",
