@@ -6,7 +6,7 @@ Leatherworks is a mod, that gives players a way to renew leather to craft and me
 * Scrape animal hides to get scraped leather
 * Soak scraped leather in tanning to get raw leather down the line
 
-The mod may be expanded upon, but currently I have no ideas of my own to add, so suggestions are welcome.
+Currently, all future plans for this mod have been put on hold, due to data loss. Consider the mod finished in its current state.
 If you run into issues, do let me know, thanks
 
 https://github.com/TonisGaming/Leatherworks/assets/18740935/74147ed5-ccf4-4e8c-9757-c59c7f5d2272
