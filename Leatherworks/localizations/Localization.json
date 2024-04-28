@@ -37,7 +37,7 @@
 	"GAMEPLAY_LeatherScrapedDescription": {
 		"English": "A piece of raw leather, that has been cleaned and cut from animal hide.",
 		"Turkish": "Temizlenmiş ve hayvan derisinden kesilmiş bir parça ham deri.",
-		"Italian": "Un pezzo di pelle crudo, che è stata pulita e tagliata dalla pelle di un animale."
+		"Italian": "Un pezzo di pelle cruda, che è stata pulita e tagliata dalla pelle di un animale."
 	},
 	"GAMEPLAY_TreeBark": {
 		"English": "Tree Bark",
@@ -92,7 +92,7 @@
 	"GAMEPLAY_BarkPreparedDescription": {
 		"English": "A chunk of prepared bark. Could be cooked into food or fried and crushed to get some flour.",
 		"Turkish": "Hazırlanmış ağaç kabuğu parçası. Yemek olarak pişirilebilir veya kızartılıp ezilerek un elde edilebilir.",
-		"Italian": "Un pezzo di corteccia preparata. Può essere cotto per consumarlo oppure fritto e macinato per ottenere un po' di farina."
+		"Italian": "Un pezzo di corteccia preparata. Può essere cotta per consumarla oppure fritta e macinata per ottenere un po' di farina."
 	},
 	"GAMEPLAY_BarkPreparedFried": {
 		"English": "Fried Prepared Bark",
@@ -132,7 +132,7 @@
 	"GAMEPLAY_BirchBarkPreparedFryableDescription": {
 		"English": "A chunk of prepared birch bark. Could be cooked into food or fried.",
 		"Turkish": "Hazırlanmış bir parça huş ağacı kabuğu. Yemek olarak pişirilebilir veya kızartılabilir.",
-		"Italian": "Un pezzo di corteccia di betulla preparata. Può essere cotto per consumarlo oppure fritto e macinarlo per ottenere un po' di farina."
+		"Italian": "Un pezzo di corteccia di betulla preparata. Può essere cotta per consumarla oppure fritta."
 	},
 	"GAMEPLAY_BirchBarkPreparedFried": {
 		"English": "Fried Prepared Birch Bark",
@@ -192,7 +192,7 @@
 	"GAMEPLAY_UnCookedBarkBannockDescription": {
 		"English": "A bannock of all time, in the making. With extra bark.",
 		"Turkish": "Tüm zamanların çöreği, yapım aşamasında. Ekstra kabuklu.",
-		"Italian": "Una focaccia di tutti i tempi, in fare. Con un extra di corteccia."
+		"Italian": "Una focaccia di tutti i tempi, in divenire. Con un extra di corteccia."
 	},
 	"GAMEPLAY_CookedBarkBannock": {
 		"English": "Bark Bannock",
@@ -232,7 +232,7 @@
 	"GAMEPLAY_UnCookedBirchBarkBannockDescription": {
 		"English": "A bannock of all time, in the making. With extra bark.",
 		"Turkish": "Tüm zamanların çöreği, yapım aşamasında. Ekstra kabuklu.",
-		"Italian": "Una focaccia di tutti i tempi, in fare. Con un extra di corteccia."
+		"Italian": "Una focaccia di tutti i tempi, in divenire. Con un extra di corteccia."
 	},
 	"GAMEPLAY_CookedBirchBarkBannock": {
 		"English": "Birch Bark Bannock",
@@ -282,7 +282,7 @@
 	"GAMEPLAY_ImprovisedFlaskDescription": {
 		"English": "A can wrapped in some cloth with a small lid. Will keep your drinks warmer longer than your regular cup.",
 		"Turkish": "Küçük bir kapakla beze sarılmış bir kutu. İçeceklerinizi normal bardağınızdan daha uzun süre sıcak tutacaktır.",
-		"Italian": "Una lattina avvolta in qualche pezzo di stoffa e un piccolo coperchio. Terrà le tue bevande calde più a lungo che le tue tazze regolari."
+		"Italian": "Una lattina avvolta in qualche pezzo di stoffa e un piccolo coperchio. Terrà le tue bevande calde più a lungo rispetto alle tue tazze regolari."
 	},
 	"GAMEPLAY_InsulatedFlask_Paint": {
 		"English": "Paint Insulated Flask",
