@@ -3,7 +3,7 @@
     "DisplayNameLocalizationId": "GAMEPLAY_CookedBarkBannock",
     "DescriptionLocalizatonId": "GAMEPLAY_CookedBarkBannockDescription",
     "InventoryActionLocalizationId": "",
-    "WeightKG": 0.3,
+    "WeightKG": 0.12,
     "DaysToDecay": 10,
     "MaxHP": 100,
     "InitialCondition": "Perfect",
@@ -76,7 +76,7 @@
     "SingleUnitTextId": "GAMEPLAY_BannockSingle",
     "MultipleUnitTextId": "GAMEPLAY_BannockMultiple",
     "StackSprite": "",
-    "UnitsPerItem": 1,
+    "UnitsPerItem": 2,
     "ChanceFull": 0
   }
 

@@ -3,7 +3,7 @@
     "DisplayNameLocalizationId": "GAMEPLAY_UnCookedBarkBannock",
     "DescriptionLocalizatonId": "GAMEPLAY_UnCookedBarkBannockDescription",
     "InventoryActionLocalizationId": "",
-    "WeightKG": 0.3,
+    "WeightKG": 0.12,
     "DaysToDecay": 10,
     "MaxHP": 100,
     "InitialCondition": "Perfect",
